@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  /* ---------------------------- navbar --------------------- */
+}
+#navbar{
+  height: 15vh;
+  margin-bottom: 7vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  display: flex;
+  font-weight: bolder;
+  font-size: 0.88rem;
+  font-family: "Open Sans", sans-serif;
+}
+#namebar1 {
+  display: flex;
+  align-items: center;
+}
+#namebar1 div {
+  margin: 0px 1.1vw;
+}
+#logo {
+  width: 10vw;
+}
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search input {
+  border: 1px solid black;
+  border-color: rgb(235, 235, 235);
+  height: 6vh;
+  width: 25vw;
+  border-radius: 6px;
+  padding: 0px 20px;
+}
+#search button {
+  margin: 0px 20px;
+  height: 6vh;
+  width: 90px;
+  border-radius: 6px;
+  border-color: rgb(235, 235, 235);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+/* ------------------------ 1st image row ------------------- */
+
+#firstRow {
+  display: flex;
+  width: 100vw;
+}
+#firstRow #img1 {
+    width: 80vw;
+}
+#firstRow #img2 {
+    width: 20vw;
+}
+#btSpace {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  height: 20vh;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: rgb(55, 55, 55);
+}
+/* ----------------------------------  2nd Image row  --------------------------- */
+#secondRow {
+  display: flex;
+  width: 100vw;
+}
+#secondRow img {
+    width: 11vw;
+}
+/* ----------------------------------  3nd Image row  --------------------------- */
+#thirdRow{
+  width: 100vw;
+}
+
+#thirdRow img {
+    width: 100vw;
+  }
